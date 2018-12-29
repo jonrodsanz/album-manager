@@ -1,0 +1,19 @@
+.Main__form {
+  border-radius: 20px;
+  margin-bottom: 5px;
+  height: 100%;
+  background-color: #2d2d2d !important;
+}
+
+.Main__cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#description {
+  width: 100%;
+  font-size: 15.5px;
+  padding: 15px;
+}
