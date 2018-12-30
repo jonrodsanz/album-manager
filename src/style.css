@@ -8,3 +8,11 @@ body {
   background-size: cover;
   font-family: 'Work Sans', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .Main__form {
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+  }
+}

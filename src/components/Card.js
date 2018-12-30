@@ -9,15 +9,18 @@ function Card(props) {
   let src = image ? image: "http://bobjames.com/wp-content/themes/soundcheck/images/default-album-artwork.png"
   let displayTitle = `${title} ($${price ? price: "Free"})`
   let displayAuthor = author ? author: "Anonymous"
+  let referenceLink = `https://www.last.fm/music/${author.split(" ").join("+")}/${title.split(" ").join("+")}`
 
   return (
     <div className="App__card card bg-dark text-white">
       <div className="card-img-top text-center">
-        <img
-          style={{overflow: 'hidden', height: 200}}
-          src={src}
-          alt="Album's Cover"
-        />
+        <a href={referenceLink} target="_blank">
+          <img
+            style={{overflow: 'hidden', height: 200}}
+            src={src}
+            alt="Album's Cover"
+          />
+        </a>
       </div>
       <div className="card-body">
         <h6 className="card-title">{displayTitle}</h6>

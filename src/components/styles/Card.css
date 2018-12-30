@@ -8,3 +8,13 @@
 .App__card--editing {
   height: 355px;
 }
+
+@media (max-width: 768px) {
+  .App__card,
+  .App__card--editing {
+    width: 75%;
+  }
+  .App__card--editing .form-group {
+    width: 100%;
+  }
+}

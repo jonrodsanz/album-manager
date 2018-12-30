@@ -2,7 +2,20 @@
   border-radius: 20px;
   margin-bottom: 5px;
   height: 100%;
+}
+
+input.form-control,
+input.form-control::placeholder {
   background-color: #2d2d2d !important;
+  border: none;
+}
+
+input.form-control {
+  color: white !important;
+}
+
+input.form-control::placeholder {
+  color: rgb(163, 160, 157) !important;
 }
 
 .Main__cards-container {

@@ -9,18 +9,18 @@ const cardsExamples = [
   },
   {
     id: "example02",
-    title: "Mothership",
-    price: 15.95,
-    author: "Led Zepellin",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Led_Zeppelin_-_Mothership.jpg/220px-Led_Zeppelin_-_Mothership.jpg",
-    editing: false
-  },
-  {
-    id: "example03",
     title: "ABBA Gold",
     price: 10.90,
     author: "ABBA",
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/ABBA_Gold_cover.png/220px-ABBA_Gold_cover.png",
+    editing: false
+  },
+  {
+    id: "example03",
+    title: "Room on Fire",
+    price: 8.95,
+    author: "The Strokes",
+    image: "https://cdn.albumoftheyear.org/album/room-on-fire.jpg",
     editing: false
   }
 ]
