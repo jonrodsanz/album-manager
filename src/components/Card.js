@@ -14,7 +14,7 @@ function Card(props) {
   return (
     <div className="App__card card bg-dark text-white">
       <div className="card-img-top text-center">
-        <a href={referenceLink} target="_blank">
+        <a href={referenceLink} rel="noopener noreferrer" target="_blank">
           <img
             style={{overflow: 'hidden', height: 200}}
             src={src}
