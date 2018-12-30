@@ -37,7 +37,7 @@ class Form extends Component {
   render(){
     return(
       <form
-        autocomplete="off"
+        autoComplete="off"
         onSubmit={this.handleSubmit}
         className="Main__form bg-dark text-white p-5 col-md-4"
       >

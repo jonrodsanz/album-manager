@@ -23,7 +23,7 @@ function Card(props) {
         <h6 className="card-title">{displayTitle}</h6>
         <small className="card-text">{displayAuthor}</small>
       </div>
-      <div class="btn-group" role="group">
+      <div className="btn-group" role="group">
         <button type="button" onClick={() => props.dispatch({type:'EDIT_ALBUM', id})} className="btn btn-secondary">Update</button>
         <button type="button" onClick={() => props.dispatch({type:'DELETE_ALBUM', id})} className="btn btn-danger">Sold</button>
       </div>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="90px" src="./public/assets/Musiger.png" />
+  <img height="80px" src="./public/assets/Musiger.png" />
 </p>
 
 ![](./public/assets/screenshot.png)

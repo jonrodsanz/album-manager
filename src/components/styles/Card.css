@@ -1,12 +1,10 @@
-.App__card {
-  min-width: 180px;
+.App__card,
+.App__card--editing {
+  width: 230px;
   padding: 10px;
   margin: 5px;
 }
 
 .App__card--editing {
-  width: 222px;
   height: 355px;
-  padding: 10px;
-  margin: 5px;
 }

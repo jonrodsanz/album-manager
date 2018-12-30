@@ -1,11 +1,10 @@
 {
-  "name": "todolist",
+  "name": "musiger-react-app",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "firebase": "5.7.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-redux": "^6.0.0",
