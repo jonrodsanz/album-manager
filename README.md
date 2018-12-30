@@ -9,7 +9,7 @@ To run on localhost type the following command
 
 > you must have [npm](https://nodejs.orgs) installed
 
-``
+```
   npm install
   npm start
-``
+```
