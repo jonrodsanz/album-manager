@@ -4,10 +4,8 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 
 import "./style.css";
-import cardsExamples from "./others/cardsExamples"
 
 import albumReducer from "./reducers/albumReducer"
-
 import App from "./components/App";
 
 const store = createStore(albumReducer)

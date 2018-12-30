@@ -19,7 +19,8 @@ class Form extends Component {
       title,
       price,
       author,
-      image
+      image,
+      editing: false
     }
 
     this.props.dispatch({

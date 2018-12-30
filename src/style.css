@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("https://wallpapercave.com/wp/QR0YrYw.jpg");
   /* background-image: url("https://i.pinimg.com/originals/15/9d/ac/159dac10a76b0b41907a3cb0b30c7879.jpg"); */
   background-size: cover;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
